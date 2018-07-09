@@ -21,5 +21,57 @@ namespace Strygevalecalculator2000
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double number1, number2, result;
+            number1 = Convert.ToDouble(textBox1.Text);
+            number2 = Convert.ToDouble(textBox2.Text);
+            result = number1 * number2;
+            label1.Text = Convert.ToString(result);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double number1, number2, result;
+            number1 = Convert.ToDouble(textBox1.Text);
+            number2 = Convert.ToDouble(textBox2.Text);
+            result = number1 / number2;
+            label1.Text = Convert.ToString(result);
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            double number1, number2, result;
+            number1 = Convert.ToDouble(textBox1.Text);
+            number2 = Convert.ToDouble(textBox2.Text);
+            result = number1 + number2;
+            label1.Text = Convert.ToString(result);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            double number1, number2, result;
+            number1 = Convert.ToDouble(textBox1.Text);
+            number2 = Convert.ToDouble(textBox2.Text);
+            result = number1 - number2;
+            label1.Text = Convert.ToString(result);
+        }
+
+        private void number1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void number2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void result(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+
