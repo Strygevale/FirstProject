@@ -72,6 +72,35 @@ namespace Strygevalecalculator2000
         {
 
         }
+
+        private void brut(object sender, EventArgs e)
+        {
+            double number1, number2, result;
+            number1 = Convert.ToDouble(textBox1.Text);
+            number2 = Convert.ToDouble(textBox2.Text);
+            switch (((Button) sender).Name)
+            {
+                case "addition":
+                    result = number1 + number2;
+                    label1.Text = Convert.ToString(result);
+                    break;
+                case "substraction":
+                    result = number1 - number2;
+                    label1.Text = Convert.ToString(result);
+                    break;
+                case "multiply":
+                    result = number1 * number2;
+                    label1.Text = Convert.ToString(result);
+                    break;
+                case "divide":
+                    result = number1 / number2;
+                    label1.Text = Convert.ToString(result);
+                    break;
+                default:
+                    throw new Exception("Error");
+            }
+        }
+ 
     }
 }
 
