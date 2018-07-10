@@ -14,9 +14,9 @@ namespace Strygevalecalculator2000
             switch (calculatorName)
             {
                 case "addition": return new AdditionCalculator();
-                case "substraction": return new AdditionCalculator();
-                case "multiply": return new AdditionCalculator();
-                case "divide": return new AdditionCalculator();
+                case "substraction": return new SubstractionCalculator();
+                case "multiply": return new MultiplicationCalculator();
+                case "divide": return new DivisionCalculator();
                 default: throw new Exception("Error");
             }
         }
