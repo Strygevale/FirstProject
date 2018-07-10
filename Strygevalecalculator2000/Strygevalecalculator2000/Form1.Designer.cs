@@ -35,6 +35,8 @@
             this.addition = new System.Windows.Forms.Button();
             this.substraction = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.sin = new System.Windows.Forms.Button();
+            this.cos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -93,16 +95,38 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(93, 197);
+            this.textBox3.Location = new System.Drawing.Point(93, 230);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 7;
+            // 
+            // sin
+            // 
+            this.sin.Location = new System.Drawing.Point(42, 180);
+            this.sin.Name = "sin";
+            this.sin.Size = new System.Drawing.Size(75, 23);
+            this.sin.TabIndex = 8;
+            this.sin.Text = "Sin";
+            this.sin.UseVisualStyleBackColor = true;
+            this.sin.Click += new System.EventHandler(this.oneBrut);
+            // 
+            // cos
+            // 
+            this.cos.Location = new System.Drawing.Point(172, 180);
+            this.cos.Name = "cos";
+            this.cos.Size = new System.Drawing.Size(75, 23);
+            this.cos.TabIndex = 9;
+            this.cos.Text = "Cos";
+            this.cos.UseVisualStyleBackColor = true;
+            this.cos.Click += new System.EventHandler(this.oneBrut);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.cos);
+            this.Controls.Add(this.sin);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.substraction);
             this.Controls.Add(this.addition);
@@ -127,6 +151,8 @@
         private System.Windows.Forms.Button addition;
         private System.Windows.Forms.Button substraction;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button sin;
+        private System.Windows.Forms.Button cos;
     }
 }
 

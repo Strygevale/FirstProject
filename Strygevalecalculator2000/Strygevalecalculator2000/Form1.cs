@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Strygevalecalculator2000.OneArgument;
 
 namespace Strygevalecalculator2000
 {
@@ -28,6 +29,14 @@ namespace Strygevalecalculator2000
             double secondArgument = Convert.ToDouble(textBox2.Text);
             ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator((((Button)sender).Name));
             double result = calculator.Calculate(firstArgument, secondArgument);
+            textBox3.Text = result.ToString();
+        }
+
+        private void oneBrut(object sender, EventArgs e)
+        {
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            IOneArgumentCalculator calculator = OneFabric.CreateCalculator((((Button)sender).Name));
+            double result = calculator.Calculate(firstArgument);
             textBox3.Text = result.ToString();
         }
     }
