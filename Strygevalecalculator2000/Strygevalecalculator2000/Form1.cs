@@ -26,23 +26,8 @@ namespace Strygevalecalculator2000
         {
             double firstArgument = Convert.ToDouble(textBox1.Text);
             double secondArgument = Convert.ToDouble(textBox2.Text);
-            double result;
-            switch (((Button)sender).Name)
-            {
-                case "addition":
-                    result = firstArgument + secondArgument;
-                    break;
-                case "substraction":
-                    result = firstArgument - secondArgument;
-                    break;
-                case "multiply":
-                    result = firstArgument * secondArgument;
-                    break;
-                case "divide":
-                    result = firstArgument / secondArgument;
-                    break;
-                default: throw new Exception("Error");
-            }
+            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator((((Button)sender).Name));
+            double result = calculator.Calculate(firstArgument, secondArgument);
             textBox3.Text = result.ToString();
         }
     }
