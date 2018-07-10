@@ -24,30 +24,26 @@ namespace Strygevalecalculator2000
 
         private void brut(object sender, EventArgs e)
         {
-            double firstArgument, secondArgument, result;
-            firstArgument = Convert.ToDouble(textBox1.Text);
-            secondArgument = Convert.ToDouble(textBox2.Text);
-            switch (((Button) sender).Name)
+            double firstArgument = Convert.ToDouble(textBox1.Text);
+            double secondArgument = Convert.ToDouble(textBox2.Text);
+            double result;
+            switch (((Button)sender).Name)
             {
                 case "addition":
                     result = firstArgument + secondArgument;
-                    textBox3.Text = Convert.ToString(result);
                     break;
                 case "substraction":
                     result = firstArgument - secondArgument;
-                    textBox3.Text = Convert.ToString(result);
                     break;
                 case "multiply":
                     result = firstArgument * secondArgument;
-                    textBox3.Text = Convert.ToString(result);
                     break;
                 case "divide":
                     result = firstArgument / secondArgument;
-                    textBox3.Text = Convert.ToString(result);
                     break;
-                default:
-                    throw new Exception("Error");
+                default: throw new Exception("Error");
             }
+            textBox3.Text = result.ToString();
         }
     }
 }
