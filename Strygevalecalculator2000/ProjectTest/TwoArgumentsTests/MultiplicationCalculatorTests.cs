@@ -17,5 +17,14 @@ namespace MultiplyTest
             MultiplicationCalculator calculator = new MultiplicationCalculator();
             Assert.AreEqual(20, calculator.Calculate(4, 5));
         }
+        [TestCase(0, 0, 0)]
+        [TestCase(5, 4, 20)]
+        [TestCase(-7, -5, 35)]
+        public void CalculationAdditionTest(double firstArgument, double secondArgument, double result)
+        {
+            var calculator = new MultiplicationCalculator();
+            var actualResult = calculator.Calculate(firstArgument, secondArgument);
+            Assert.AreEqual(result, actualResult);
+        }
     }
 }
