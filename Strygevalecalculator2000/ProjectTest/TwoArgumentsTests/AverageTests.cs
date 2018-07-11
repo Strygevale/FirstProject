@@ -1,10 +1,11 @@
-﻿using Calculator.TwoArguments;
-using NUnit.Framework;
+﻿using NUnit.Framework;
+using NUnit.Framework.Internal;
+using Strygevalecalculator2000;
 
 namespace Calculator.Tests.TwoArguments
 {
     [TestFixture]
-    class AverageTests
+    public class AverageTests
     {
         
        [TestCase(2, 4, 3)]
@@ -12,7 +13,7 @@ namespace Calculator.Tests.TwoArguments
        [TestCase(3, 3, 3)]
        public void CalculateTest(double firstValue, double secondValue, double expected)
           {
-                var calculator = new Average();
+                var calculator = new AverageCalculator();
                 var actualResult = calculator.Calculate(firstValue, secondValue);
                 Assert.AreEqual(expected, actualResult);
           }

@@ -40,13 +40,13 @@
             this.arccos = new System.Windows.Forms.Button();
             this.arcctg = new System.Windows.Forms.Button();
             this.ctg = new System.Windows.Forms.Button();
-            this.logarithm = new System.Windows.Forms.Button();
-            this.xin2 = new System.Windows.Forms.Button();
+            this.ln = new System.Windows.Forms.Button();
+            this.x2 = new System.Windows.Forms.Button();
             this.average = new System.Windows.Forms.Button();
             this.remain = new System.Windows.Forms.Button();
             this.xinreversey = new System.Windows.Forms.Button();
             this.arcsin = new System.Windows.Forms.Button();
-            this.sqrtroot = new System.Windows.Forms.Button();
+            this.root = new System.Windows.Forms.Button();
             this.max = new System.Windows.Forms.Button();
             this.xiny = new System.Windows.Forms.Button();
             this.arctan = new System.Windows.Forms.Button();
@@ -166,25 +166,25 @@
             this.ctg.UseVisualStyleBackColor = true;
             this.ctg.Click += new System.EventHandler(this.oneBrut);
             // 
-            // logarithm
+            // ln
             // 
-            this.logarithm.Location = new System.Drawing.Point(174, 151);
-            this.logarithm.Name = "logarithm";
-            this.logarithm.Size = new System.Drawing.Size(75, 23);
-            this.logarithm.TabIndex = 13;
-            this.logarithm.Text = "Logarithm";
-            this.logarithm.UseVisualStyleBackColor = true;
-            this.logarithm.Click += new System.EventHandler(this.oneBrut);
+            this.ln.Location = new System.Drawing.Point(174, 151);
+            this.ln.Name = "ln";
+            this.ln.Size = new System.Drawing.Size(75, 23);
+            this.ln.TabIndex = 13;
+            this.ln.Text = "Logarithm";
+            this.ln.UseVisualStyleBackColor = true;
+            this.ln.Click += new System.EventHandler(this.oneBrut);
             // 
-            // xin2
+            // x2
             // 
-            this.xin2.Location = new System.Drawing.Point(174, 94);
-            this.xin2.Name = "xin2";
-            this.xin2.Size = new System.Drawing.Size(75, 23);
-            this.xin2.TabIndex = 14;
-            this.xin2.Text = "Xin2";
-            this.xin2.UseVisualStyleBackColor = true;
-            this.xin2.Click += new System.EventHandler(this.oneBrut);
+            this.x2.Location = new System.Drawing.Point(174, 94);
+            this.x2.Name = "x2";
+            this.x2.Size = new System.Drawing.Size(75, 23);
+            this.x2.TabIndex = 14;
+            this.x2.Text = "Xin2";
+            this.x2.UseVisualStyleBackColor = true;
+            this.x2.Click += new System.EventHandler(this.oneBrut);
             // 
             // average
             // 
@@ -226,15 +226,15 @@
             this.arcsin.UseVisualStyleBackColor = true;
             this.arcsin.Click += new System.EventHandler(this.oneBrut);
             // 
-            // sqrtroot
+            // root
             // 
-            this.sqrtroot.Location = new System.Drawing.Point(174, 122);
-            this.sqrtroot.Name = "sqrtroot";
-            this.sqrtroot.Size = new System.Drawing.Size(75, 23);
-            this.sqrtroot.TabIndex = 19;
-            this.sqrtroot.Text = "Sqrtroot";
-            this.sqrtroot.UseVisualStyleBackColor = true;
-            this.sqrtroot.Click += new System.EventHandler(this.oneBrut);
+            this.root.Location = new System.Drawing.Point(174, 122);
+            this.root.Name = "root";
+            this.root.Size = new System.Drawing.Size(75, 23);
+            this.root.TabIndex = 19;
+            this.root.Text = "Sqrtroot";
+            this.root.UseVisualStyleBackColor = true;
+            this.root.Click += new System.EventHandler(this.oneBrut);
             // 
             // max
             // 
@@ -296,13 +296,13 @@
             this.Controls.Add(this.arctan);
             this.Controls.Add(this.xiny);
             this.Controls.Add(this.max);
-            this.Controls.Add(this.sqrtroot);
+            this.Controls.Add(this.root);
             this.Controls.Add(this.arcsin);
             this.Controls.Add(this.xinreversey);
             this.Controls.Add(this.remain);
             this.Controls.Add(this.average);
-            this.Controls.Add(this.xin2);
-            this.Controls.Add(this.logarithm);
+            this.Controls.Add(this.x2);
+            this.Controls.Add(this.ln);
             this.Controls.Add(this.ctg);
             this.Controls.Add(this.arcctg);
             this.Controls.Add(this.arccos);
@@ -337,13 +337,13 @@
         private System.Windows.Forms.Button arccos;
         private System.Windows.Forms.Button arcctg;
         private System.Windows.Forms.Button ctg;
-        private System.Windows.Forms.Button logarithm;
-        private System.Windows.Forms.Button xin2;
+        private System.Windows.Forms.Button ln;
+        private System.Windows.Forms.Button x2;
         private System.Windows.Forms.Button average;
         private System.Windows.Forms.Button remain;
         private System.Windows.Forms.Button xinreversey;
         private System.Windows.Forms.Button arcsin;
-        private System.Windows.Forms.Button sqrtroot;
+        private System.Windows.Forms.Button root;
         private System.Windows.Forms.Button max;
         private System.Windows.Forms.Button xiny;
         private System.Windows.Forms.Button arctan;

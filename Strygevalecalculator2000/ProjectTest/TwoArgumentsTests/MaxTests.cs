@@ -1,5 +1,6 @@
-﻿using Calculator.TwoArguments;
-using NUnit.Framework;
+﻿using NUnit.Framework;
+using NUnit.Framework.Internal;
+using Strygevalecalculator2000;
 
 namespace Calculator.Tests.TwoArguments
 {
@@ -12,7 +13,7 @@ namespace Calculator.Tests.TwoArguments
       [TestCase(7, 2, 7)]
        public void CalculateTest(double firstValue, double secondValue, double expected)
          {
-            var calculator = new Max();
+            var calculator = new MaxCalculator();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
           }

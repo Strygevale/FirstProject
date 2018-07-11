@@ -1,6 +1,7 @@
 ﻿using System;
-using Calculator.SingleArgument;
 using NUnit.Framework;
+using NUnit.Framework.Internal;
+using Strygevalecalculator2000;
 
 namespace Calculator.Tests.SingleArgument
 {
@@ -9,17 +10,11 @@ namespace Calculator.Tests.SingleArgument
     {
         [TestCase(1, 0)]
         [TestCase(2.71828, 1)]
-        public void CalculateTest(double value, double expected)
+        public void CalculationAdditionTest(double firstArgument, double result)
         {
-            var calculator = new Logarithm();
-            var actualResult = calculator.SingleCalculate(value);
-            Assert.AreEqual(expected, actualResult, 0.0001);
-        }
-        [Test]
-        public void CalculateTest()
-        {
-            ISingleArgumentCalculatorcs singlecalculator = SingleArgumentFactory.CreateSingleCalculate("root");
-            Assert.Throws<Exception>(() => singlecalculator.SingleCalculate(-5));
+            var calculator = new LogarithmCalculator();
+            var actualResult = calculator.Calculate(firstArgument);
+            Assert.AreEqual(result, actualResult, 0.00001);
         }
     }
 }

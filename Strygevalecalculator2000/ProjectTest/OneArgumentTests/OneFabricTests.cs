@@ -1,9 +1,5 @@
 ﻿using System;
 using NUnit.Framework;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Strygevalecalculator2000;
 using Strygevalecalculator2000.OneArgument;
 
@@ -14,6 +10,15 @@ namespace OneFabricTest
     {
         [TestCase("sin", typeof(SinCalculator))]
         [TestCase("cos", typeof(CosCalculator))]
+        [TestCase("tan", typeof(TanCalculator))]
+        [TestCase("ln", typeof(LogarithmCalculator))]
+        [TestCase("root", typeof(SqrtRootCalculator))]
+        [TestCase("x2", typeof(Xin2Calculator))]
+        [TestCase("ctg", typeof(CtgCalculator))]
+        [TestCase("arccos", typeof(ArccosCalculator))]
+        [TestCase("arcsin", typeof(ArcsinCalculator))]
+        [TestCase("arctan", typeof(ArctanCalculator))]
+        [TestCase("arcctg", typeof(ArcctgCalculator))]
         public void CalculatorTest(string name, Type type)
         {
             var calculator = OneFabric.CreateCalculator(name);

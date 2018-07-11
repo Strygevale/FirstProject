@@ -1,5 +1,6 @@
-﻿using Calculator.TwoArguments;
-using NUnit.Framework;
+﻿using NUnit.Framework;
+using NUnit.Framework.Internal;
+using Strygevalecalculator2000;
 
 namespace Calculator.Tests.TwoArguments
 {
@@ -11,7 +12,7 @@ namespace Calculator.Tests.TwoArguments
         [TestCase(16, 1, 2)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            var calculator = new XinReverseY();
+            var calculator = new XinReverseYCalculator();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }

@@ -1,9 +1,4 @@
-﻿using System;
-using NUnit.Framework;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NUnit.Framework;
 using NUnit.Framework.Internal;
 using Strygevalecalculator2000;
 
@@ -21,7 +16,7 @@ namespace CosTest
         [TestCase(0, 1)]
         [TestCase(5, 0.28366)]
         [TestCase(-7, 0.75390)]
-        public void CalculationAdditionTest(double firstArgument, double result)
+        public void CalculationTest(double firstArgument, double result)
         {
             var calculator = new CosCalculator();
             var actualResult = calculator.Calculate(firstArgument);

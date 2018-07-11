@@ -1,5 +1,7 @@
-﻿using Calculator.SingleArgument;
+﻿using System;
 using NUnit.Framework;
+using NUnit.Framework.Internal;
+using Strygevalecalculator2000;
 
 namespace Calculator.Tests.SingleArgument
 {
@@ -8,12 +10,12 @@ namespace Calculator.Tests.SingleArgument
     {
         [TestCase(1, 0.7853981)]
         [TestCase(0, 0)]
-        public void CalculateTest(double value, double expected)
+        public void CalculationAdditionTest(double firstArgument, double result)
         {
-            var calculator = new Arctan();
-            var actualResult = calculator.SingleCalculate(value);
-            Assert.AreEqual(expected, actualResult, 0.00001);
+            var calculator = new ArctanCalculator();
+            var actualResult = calculator.Calculate(firstArgument);
+            Assert.AreEqual(result, actualResult, 0.00001);
         }
-        
+
     }
 }

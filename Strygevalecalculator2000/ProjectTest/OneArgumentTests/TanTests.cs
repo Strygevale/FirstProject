@@ -1,5 +1,6 @@
-﻿using Calculator.SingleArgument;
-using NUnit.Framework;
+﻿using NUnit.Framework;
+using NUnit.Framework.Internal;
+using Strygevalecalculator2000;
 
 namespace Calculator.Tests.SingleArgument
 {
@@ -8,11 +9,11 @@ namespace Calculator.Tests.SingleArgument
     {
         [TestCase(0, 0)]
         [TestCase(1, 1.5574077)]
-        public void CalculateTest(double value, double expected)
+        public void CalculationAdditionTest(double firstArgument, double result)
         {
-            var calculator = new Tan();
-            var actualResult = calculator.SingleCalculate(value);
-            Assert.AreEqual(expected, actualResult, 0.00001);
+            var calculator = new TanCalculator();
+            var actualResult = calculator.Calculate(firstArgument);
+            Assert.AreEqual(result, actualResult, 0.00001);
         }
     }
 }
