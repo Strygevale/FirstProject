@@ -26,6 +26,11 @@ namespace DivisionTest
             var actualResult = calculator.Calculate(firstArgument, secondArgument);
             Assert.AreEqual(result, actualResult);
         }
+        public void CalculateTest()
+        {
+            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator("divide");
+            Assert.Throws<Exception>(() => calculator.Calculate(5, 0));
+        }
     }
 
 }
