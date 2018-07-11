@@ -39,6 +39,11 @@ namespace Strygevalecalculator2000
             double result = calculator.Calculate(firstArgument);
             textBox3.Text = result.ToString();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
