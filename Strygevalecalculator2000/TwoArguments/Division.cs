@@ -6,7 +6,7 @@ namespace Strygevalecalculator2000.TwoArguments
 
     {
         /// <summary>
-        /// calculate function division
+        /// calculate function divide
         /// </summary>
         /// <param name="firstArgument"></param>
         /// <param name="secondArgument"></param>
