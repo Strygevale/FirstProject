@@ -53,7 +53,7 @@
     <Compile Include="OneArgument\CosTests.cs" />
     <Compile Include="OneArgument\CtgTests.cs" />
     <Compile Include="OneArgument\LogarithmTests.cs" />
-    <Compile Include="OneArgument\OneFabricTests.cs" />
+    <Compile Include="OneArgument\OneFactoryTests.cs" />
     <Compile Include="OneArgument\SinTests.cs" />
     <Compile Include="OneArgument\SqrtRootTests.cs" />
     <Compile Include="OneArgument\TanTests.cs" />
@@ -61,7 +61,7 @@
     <Compile Include="TwoArguments\AdditionCalculatorTests.cs" />
     <Compile Include="TwoArguments\AverageTests.cs" />
     <Compile Include="TwoArguments\DivisionCalculatorTests.cs" />
-    <Compile Include="TwoArguments\FabricTests.cs" />
+    <Compile Include="TwoArguments\FactoryTests.cs" />
     <Compile Include="TwoArguments\MaxTests.cs" />
     <Compile Include="TwoArguments\MinTests.cs" />
     <Compile Include="TwoArguments\MultiplicationCalculatorTests.cs" />

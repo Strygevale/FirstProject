@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strygevalecalculator2000", "Strygevalecalculator2000\Strygevalecalculator2000.csproj", "{D2628539-A166-4B5F-BE68-BDAEA4120ECA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTest", "ProjectTest\ProjectTest.csproj", "{9DBA867D-DFC6-4F0F-B1AB-89BF68055866}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strygevalecalculator2000.Tests", "ProjectTest\Strygevalecalculator2000.Tests.csproj", "{9DBA867D-DFC6-4F0F-B1AB-89BF68055866}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{D355F286-16DA-4783-B0EF-53A8AABB26B9}"
 EndProject
