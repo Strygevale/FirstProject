@@ -48,3 +48,15 @@ C:\Users\Helsker\Documents\GitHub\FirstProject\Strygevalecalculator2000\Strygeva
 C:\Users\Helsker\Documents\GitHub\FirstProject\Strygevalecalculator2000\Strygevalecalculator2000\obj\Debug\Strygevalecalculator2000.pdb
 C:\Users\Helsker\Documents\GitHub\FirstProject\Strygevalecalculator2000\Strygevalecalculator2000\bin\Debug\Strygevalecalculator2000.exe.CodeAnalysisLog.xml
 C:\Users\Helsker\Documents\GitHub\FirstProject\Strygevalecalculator2000\Strygevalecalculator2000\bin\Debug\Strygevalecalculator2000.exe.lastcodeanalysissucceeded
+C:\Users\Admin\Documents\GitHub\FirstProject1\Strygevalecalculator2000\Strygevalecalculator2000\bin\Debug\Strygevalecalculator2000.exe.config
+C:\Users\Admin\Documents\GitHub\FirstProject1\Strygevalecalculator2000\Strygevalecalculator2000\bin\Debug\Strygevalecalculator2000.exe
+C:\Users\Admin\Documents\GitHub\FirstProject1\Strygevalecalculator2000\Strygevalecalculator2000\bin\Debug\Strygevalecalculator2000.pdb
+C:\Users\Admin\Documents\GitHub\FirstProject1\Strygevalecalculator2000\Strygevalecalculator2000\bin\Debug\nunit.framework.dll
+C:\Users\Admin\Documents\GitHub\FirstProject1\Strygevalecalculator2000\Strygevalecalculator2000\bin\Debug\nunit.framework.pdb
+C:\Users\Admin\Documents\GitHub\FirstProject1\Strygevalecalculator2000\Strygevalecalculator2000\bin\Debug\nunit.framework.xml
+C:\Users\Admin\Documents\GitHub\FirstProject1\Strygevalecalculator2000\Strygevalecalculator2000\obj\Debug\Strygevalecalculator2000.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\FirstProject1\Strygevalecalculator2000\Strygevalecalculator2000\obj\Debug\Strygevalecalculator2000.Form1.resources
+C:\Users\Admin\Documents\GitHub\FirstProject1\Strygevalecalculator2000\Strygevalecalculator2000\obj\Debug\Strygevalecalculator2000.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\FirstProject1\Strygevalecalculator2000\Strygevalecalculator2000\obj\Debug\Strygevalecalculator2000.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\GitHub\FirstProject1\Strygevalecalculator2000\Strygevalecalculator2000\obj\Debug\Strygevalecalculator2000.exe
+C:\Users\Admin\Documents\GitHub\FirstProject1\Strygevalecalculator2000\Strygevalecalculator2000\obj\Debug\Strygevalecalculator2000.pdb

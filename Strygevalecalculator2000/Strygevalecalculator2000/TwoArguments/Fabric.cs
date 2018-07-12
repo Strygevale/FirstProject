@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Strygevalecalculator2000
 {
-    public static class TwoArgumentsFactory
+    public static class Fabric
     {
         public static ITwoArgumentsCalculator CreateCalculator(string calculatorName)
         {

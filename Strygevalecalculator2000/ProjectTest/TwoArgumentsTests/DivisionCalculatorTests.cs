@@ -28,7 +28,7 @@ namespace DivisionTest
         }
         public void CalculateTest()
         {
-            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator("divide");
+            ITwoArgumentsCalculator calculator = Fabric.CreateCalculator("divide");
             Assert.Throws<Exception>(() => calculator.Calculate(5, 0));
         }
     }

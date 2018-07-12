@@ -14,7 +14,7 @@ namespace FabricTest
         [TestCase("addition", typeof(AdditionCalculator))]
         [TestCase("substraction", typeof(SubstractionCalculator))]
         [TestCase("multiply", typeof(MultiplicationCalculator))]
-        [TestCase("division", typeof(DivisionCalculator))]
+        [TestCase("divide", typeof(DivisionCalculator))]
         [TestCase("average", typeof(AverageCalculator))]
         [TestCase("max", typeof(MaxCalculator))]
         [TestCase("min", typeof(MinCalculator))]
@@ -23,7 +23,7 @@ namespace FabricTest
         [TestCase("xinreversey", typeof(XinReverseYCalculator))]
         public void CalculatorTest(string name, Type type)
         {
-            var calculator = TwoArgumentsFactory.CreateCalculator(name);
+            var calculator = Fabric.CreateCalculator(name);
             Assert.IsInstanceOf(type, calculator);
         }
 

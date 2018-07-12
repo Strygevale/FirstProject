@@ -27,7 +27,7 @@ namespace Strygevalecalculator2000
         {
             double firstArgument = Convert.ToDouble(textBox1.Text);
             double secondArgument = Convert.ToDouble(textBox2.Text);
-            ITwoArgumentsCalculator calculator = TwoArgumentsFactory.CreateCalculator((((Button)sender).Name));
+            ITwoArgumentsCalculator calculator = Fabric.CreateCalculator((((Button)sender).Name));
             double result = calculator.Calculate(firstArgument, secondArgument);
             textBox3.Text = result.ToString();
         }
