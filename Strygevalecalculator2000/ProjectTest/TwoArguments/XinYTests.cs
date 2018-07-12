@@ -1,18 +1,17 @@
 ﻿using NUnit.Framework;
-using NUnit.Framework.Internal;
-using Strygevalecalculator2000;
+using Strygevalecalculator2000.TwoArguments;
 
-namespace Calculator.Tests.TwoArguments
+namespace ProjectTest.TwoArguments
 {
     [TestFixture]
-    class RemainTests
+    class XinYTests
     {
-        [TestCase(5, 3, 2)]
-        [TestCase(7, 4, 3)]
-        [TestCase(9, 5, 4)]
+        [TestCase(5, 1, 5)]
+        [TestCase(3, 2, 9)]
+        [TestCase(7, 2, 49)]
         public void CalculateTest(double firstValue, double secondValue, double expected)
         {
-            var calculator = new RemainCalculator();
+            var calculator = new XinYCalculator();
             var actualResult = calculator.Calculate(firstValue, secondValue);
             Assert.AreEqual(expected, actualResult);
         }

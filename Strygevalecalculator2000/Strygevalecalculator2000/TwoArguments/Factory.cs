@@ -1,9 +1,17 @@
 ﻿using System;
 
-namespace Strygevalecalculator2000
+namespace Strygevalecalculator2000.TwoArguments
 {
-    public static class Fabric
+    /// <summary>
+    /// factory, that choses a  two argument calculating class by its name
+    /// </summary>
+    public static class Factory
     {
+        /// <summary>
+        /// that choses a  two argument calculating class by its name
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns>Sum() or Minus() or Multiply() or Division() or XinY() or XinReverseY() or Max() or Min() Remain() or Average()</returns>
         public static ITwoArgumentsCalculator CreateCalculator(string calculatorName)
         {
             switch (calculatorName)

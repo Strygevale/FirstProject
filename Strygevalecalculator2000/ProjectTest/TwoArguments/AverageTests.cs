@@ -1,8 +1,7 @@
 ﻿using NUnit.Framework;
-using NUnit.Framework.Internal;
-using Strygevalecalculator2000;
+using Strygevalecalculator2000.TwoArguments;
 
-namespace Calculator.Tests.TwoArguments
+namespace ProjectTest.TwoArguments
 {
     [TestFixture]
     public class AverageTests

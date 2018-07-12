@@ -77,7 +77,7 @@
             this.multiply.TabIndex = 3;
             this.multiply.Text = "*";
             this.multiply.UseVisualStyleBackColor = true;
-            this.multiply.Click += new System.EventHandler(this.brut);
+            this.multiply.Click += new System.EventHandler(this.ClickTwo);
             // 
             // divide
             // 
@@ -87,7 +87,7 @@
             this.divide.TabIndex = 4;
             this.divide.Text = "/";
             this.divide.UseVisualStyleBackColor = true;
-            this.divide.Click += new System.EventHandler(this.brut);
+            this.divide.Click += new System.EventHandler(this.ClickTwo);
             // 
             // addition
             // 
@@ -97,7 +97,7 @@
             this.addition.TabIndex = 5;
             this.addition.Text = "+";
             this.addition.UseVisualStyleBackColor = true;
-            this.addition.Click += new System.EventHandler(this.brut);
+            this.addition.Click += new System.EventHandler(this.ClickTwo);
             // 
             // substraction
             // 
@@ -107,7 +107,7 @@
             this.substraction.TabIndex = 6;
             this.substraction.Text = "-";
             this.substraction.UseVisualStyleBackColor = true;
-            this.substraction.Click += new System.EventHandler(this.brut);
+            this.substraction.Click += new System.EventHandler(this.ClickTwo);
             // 
             // textBox3
             // 
@@ -124,7 +124,7 @@
             this.sin.TabIndex = 8;
             this.sin.Text = "Sin";
             this.sin.UseVisualStyleBackColor = true;
-            this.sin.Click += new System.EventHandler(this.oneBrut);
+            this.sin.Click += new System.EventHandler(this.ClickOne);
             // 
             // cos
             // 
@@ -134,7 +134,7 @@
             this.cos.TabIndex = 9;
             this.cos.Text = "Cos";
             this.cos.UseVisualStyleBackColor = true;
-            this.cos.Click += new System.EventHandler(this.oneBrut);
+            this.cos.Click += new System.EventHandler(this.ClickOne);
             // 
             // arccos
             // 
@@ -144,7 +144,7 @@
             this.arccos.TabIndex = 10;
             this.arccos.Text = "Arccos";
             this.arccos.UseVisualStyleBackColor = true;
-            this.arccos.Click += new System.EventHandler(this.oneBrut);
+            this.arccos.Click += new System.EventHandler(this.ClickOne);
             // 
             // arcctg
             // 
@@ -154,7 +154,7 @@
             this.arcctg.TabIndex = 11;
             this.arcctg.Text = "Arcctg";
             this.arcctg.UseVisualStyleBackColor = true;
-            this.arcctg.Click += new System.EventHandler(this.oneBrut);
+            this.arcctg.Click += new System.EventHandler(this.ClickOne);
             // 
             // ctg
             // 
@@ -164,7 +164,7 @@
             this.ctg.TabIndex = 12;
             this.ctg.Text = "Ctg";
             this.ctg.UseVisualStyleBackColor = true;
-            this.ctg.Click += new System.EventHandler(this.oneBrut);
+            this.ctg.Click += new System.EventHandler(this.ClickOne);
             // 
             // ln
             // 
@@ -174,7 +174,7 @@
             this.ln.TabIndex = 13;
             this.ln.Text = "Logarithm";
             this.ln.UseVisualStyleBackColor = true;
-            this.ln.Click += new System.EventHandler(this.oneBrut);
+            this.ln.Click += new System.EventHandler(this.ClickOne);
             // 
             // x2
             // 
@@ -184,7 +184,7 @@
             this.x2.TabIndex = 14;
             this.x2.Text = "Xin2";
             this.x2.UseVisualStyleBackColor = true;
-            this.x2.Click += new System.EventHandler(this.oneBrut);
+            this.x2.Click += new System.EventHandler(this.ClickOne);
             // 
             // average
             // 
@@ -194,7 +194,7 @@
             this.average.TabIndex = 15;
             this.average.Text = "Average";
             this.average.UseVisualStyleBackColor = true;
-            this.average.Click += new System.EventHandler(this.brut);
+            this.average.Click += new System.EventHandler(this.ClickTwo);
             // 
             // remain
             // 
@@ -204,7 +204,7 @@
             this.remain.TabIndex = 16;
             this.remain.Text = "Remain";
             this.remain.UseVisualStyleBackColor = true;
-            this.remain.Click += new System.EventHandler(this.brut);
+            this.remain.Click += new System.EventHandler(this.ClickTwo);
             // 
             // xinreversey
             // 
@@ -214,7 +214,7 @@
             this.xinreversey.TabIndex = 17;
             this.xinreversey.Text = "XinReverseY";
             this.xinreversey.UseVisualStyleBackColor = true;
-            this.xinreversey.Click += new System.EventHandler(this.brut);
+            this.xinreversey.Click += new System.EventHandler(this.ClickTwo);
             // 
             // arcsin
             // 
@@ -224,7 +224,7 @@
             this.arcsin.TabIndex = 18;
             this.arcsin.Text = "Arcsin";
             this.arcsin.UseVisualStyleBackColor = true;
-            this.arcsin.Click += new System.EventHandler(this.oneBrut);
+            this.arcsin.Click += new System.EventHandler(this.ClickOne);
             // 
             // root
             // 
@@ -234,7 +234,7 @@
             this.root.TabIndex = 19;
             this.root.Text = "Sqrtroot";
             this.root.UseVisualStyleBackColor = true;
-            this.root.Click += new System.EventHandler(this.oneBrut);
+            this.root.Click += new System.EventHandler(this.ClickOne);
             // 
             // max
             // 
@@ -244,7 +244,7 @@
             this.max.TabIndex = 20;
             this.max.Text = "Max";
             this.max.UseVisualStyleBackColor = true;
-            this.max.Click += new System.EventHandler(this.brut);
+            this.max.Click += new System.EventHandler(this.ClickTwo);
             // 
             // xiny
             // 
@@ -254,7 +254,7 @@
             this.xiny.TabIndex = 21;
             this.xiny.Text = "XinY";
             this.xiny.UseVisualStyleBackColor = true;
-            this.xiny.Click += new System.EventHandler(this.brut);
+            this.xiny.Click += new System.EventHandler(this.ClickTwo);
             // 
             // arctan
             // 
@@ -264,7 +264,7 @@
             this.arctan.TabIndex = 22;
             this.arctan.Text = "Arctan";
             this.arctan.UseVisualStyleBackColor = true;
-            this.arctan.Click += new System.EventHandler(this.oneBrut);
+            this.arctan.Click += new System.EventHandler(this.ClickOne);
             // 
             // tan
             // 
@@ -274,7 +274,7 @@
             this.tan.TabIndex = 23;
             this.tan.Text = "Tan";
             this.tan.UseVisualStyleBackColor = true;
-            this.tan.Click += new System.EventHandler(this.oneBrut);
+            this.tan.Click += new System.EventHandler(this.ClickOne);
             // 
             // min
             // 
@@ -284,7 +284,7 @@
             this.min.TabIndex = 24;
             this.min.Text = "Min";
             this.min.UseVisualStyleBackColor = true;
-            this.min.Click += new System.EventHandler(this.brut);
+            this.min.Click += new System.EventHandler(this.ClickTwo);
             // 
             // Form1
             // 

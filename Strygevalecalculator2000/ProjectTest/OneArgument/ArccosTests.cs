@@ -1,8 +1,7 @@
-﻿using System;
-using NUnit.Framework;
-using Strygevalecalculator2000;
+﻿using NUnit.Framework;
+using Strygevalecalculator2000.OneArgument;
 
-namespace Calculator.Tests.SingleArgument
+namespace ProjectTest.OneArgument
 {
     [TestFixture]
     class ArccosTests

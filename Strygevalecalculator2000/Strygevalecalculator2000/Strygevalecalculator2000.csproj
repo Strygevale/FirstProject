@@ -57,23 +57,21 @@
     <Compile Include="OneArgument\Arctan.cs" />
     <Compile Include="OneArgument\Cos.cs" />
     <Compile Include="OneArgument\Ctg.cs" />
-    <Compile Include="OneArgument\IOneFace.cs" />
     <Compile Include="OneArgument\Logarithm.cs" />
-    <Compile Include="OneArgument\OneFabric.cs" />
+    <Compile Include="OneArgument\OneFactory.cs" />
     <Compile Include="OneArgument\SqrtRoot.cs" />
     <Compile Include="OneArgument\Tan.cs" />
     <Compile Include="OneArgument\Xin2.cs" />
     <Compile Include="TwoArguments\Addition.cs" />
     <Compile Include="TwoArguments\Average.cs" />
     <Compile Include="TwoArguments\Division.cs" />
-    <Compile Include="TwoArguments\Fabric.cs" />
+    <Compile Include="TwoArguments\Factory.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="TwoArguments\iFace.cs" />
     <Compile Include="OneArgument\IOneArgumentCalculator.cs" />
     <Compile Include="TwoArguments\ITwoArgumentsCalculator.cs" />
     <Compile Include="TwoArguments\Max.cs" />

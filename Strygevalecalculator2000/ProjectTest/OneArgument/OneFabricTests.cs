@@ -1,9 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
-using Strygevalecalculator2000;
 using Strygevalecalculator2000.OneArgument;
 
-namespace OneFabricTest
+namespace ProjectTest.OneArgument
 {
     [TestFixture]
     public class OneFabricCalculatorTests
@@ -21,7 +20,7 @@ namespace OneFabricTest
         [TestCase("arcctg", typeof(ArcctgCalculator))]
         public void CalculatorTest(string name, Type type)
         {
-            var calculator = OneFabric.CreateCalculator(name);
+            var calculator = OneFactory.CreateCalculator(name);
             Assert.IsInstanceOf(type, calculator);
         }
 

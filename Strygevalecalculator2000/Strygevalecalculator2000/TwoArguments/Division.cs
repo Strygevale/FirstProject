@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Strygevalecalculator2000
+namespace Strygevalecalculator2000.TwoArguments
 {
     public class DivisionCalculator : ITwoArgumentsCalculator
 
@@ -22,6 +18,11 @@ namespace Strygevalecalculator2000
         /// </returns>
         public double Calculate(double firstArgument, double secondArgument)
         {
+            if (secondArgument == 0)
+            {
+                throw new Exception("Деление на 0");
+            }
+
             return firstArgument / secondArgument;
         }
     }

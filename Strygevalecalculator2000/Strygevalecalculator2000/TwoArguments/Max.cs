@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Strygevalecalculator2000
+﻿namespace Strygevalecalculator2000.TwoArguments
 {
     public class MaxCalculator : ITwoArgumentsCalculator
     {

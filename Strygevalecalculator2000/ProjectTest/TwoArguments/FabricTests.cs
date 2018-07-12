@@ -1,12 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Strygevalecalculator2000;
+using Strygevalecalculator2000.TwoArguments;
 
-namespace FabricTest
+namespace ProjectTest.TwoArguments
 {
     [TestFixture]
     public class FabricCalculatorTests
@@ -23,7 +19,7 @@ namespace FabricTest
         [TestCase("xinreversey", typeof(XinReverseYCalculator))]
         public void CalculatorTest(string name, Type type)
         {
-            var calculator = Fabric.CreateCalculator(name);
+            var calculator = Factory.CreateCalculator(name);
             Assert.IsInstanceOf(type, calculator);
         }
 

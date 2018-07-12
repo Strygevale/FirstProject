@@ -1,13 +1,7 @@
-﻿using System;
-using NUnit.Framework;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework.Internal;
-using Strygevalecalculator2000;
+﻿using NUnit.Framework;
+using Strygevalecalculator2000.TwoArguments;
 
-namespace AdditionTest
+namespace ProjectTest.TwoArguments
 {
     [TestFixture]
     public class AdditionCalculatorTests

@@ -46,30 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OneArgumentTests\ArccosTests.cs" />
-    <Compile Include="OneArgumentTests\ArcctgTests.cs" />
-    <Compile Include="OneArgumentTests\ArcsinTests.cs" />
-    <Compile Include="OneArgumentTests\ArctanTests.cs" />
-    <Compile Include="OneArgumentTests\CosTests.cs" />
-    <Compile Include="OneArgumentTests\CtgTests.cs" />
-    <Compile Include="OneArgumentTests\LogarithmTests.cs" />
-    <Compile Include="OneArgumentTests\OneFabricTests.cs" />
-    <Compile Include="OneArgumentTests\SinTests.cs" />
-    <Compile Include="OneArgumentTests\SqrtRootTests.cs" />
-    <Compile Include="OneArgumentTests\TanTests.cs" />
-    <Compile Include="OneArgumentTests\Xin2Tests.cs" />
-    <Compile Include="TwoArgumentsTests\AdditionCalculatorTests.cs" />
-    <Compile Include="TwoArgumentsTests\AverageTests.cs" />
-    <Compile Include="TwoArgumentsTests\DivisionCalculatorTests.cs" />
-    <Compile Include="TwoArgumentsTests\FabricTests.cs" />
-    <Compile Include="TwoArgumentsTests\MaxTests.cs" />
-    <Compile Include="TwoArgumentsTests\MinTests.cs" />
-    <Compile Include="TwoArgumentsTests\MultiplicationCalculatorTests.cs" />
+    <Compile Include="OneArgument\ArccosTests.cs" />
+    <Compile Include="OneArgument\ArcctgTests.cs" />
+    <Compile Include="OneArgument\ArcsinTests.cs" />
+    <Compile Include="OneArgument\ArctanTests.cs" />
+    <Compile Include="OneArgument\CosTests.cs" />
+    <Compile Include="OneArgument\CtgTests.cs" />
+    <Compile Include="OneArgument\LogarithmTests.cs" />
+    <Compile Include="OneArgument\OneFabricTests.cs" />
+    <Compile Include="OneArgument\SinTests.cs" />
+    <Compile Include="OneArgument\SqrtRootTests.cs" />
+    <Compile Include="OneArgument\TanTests.cs" />
+    <Compile Include="OneArgument\Xin2Tests.cs" />
+    <Compile Include="TwoArguments\AdditionCalculatorTests.cs" />
+    <Compile Include="TwoArguments\AverageTests.cs" />
+    <Compile Include="TwoArguments\DivisionCalculatorTests.cs" />
+    <Compile Include="TwoArguments\FabricTests.cs" />
+    <Compile Include="TwoArguments\MaxTests.cs" />
+    <Compile Include="TwoArguments\MinTests.cs" />
+    <Compile Include="TwoArguments\MultiplicationCalculatorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TwoArgumentsTests\RemainTests.cs" />
-    <Compile Include="TwoArgumentsTests\SubstractionCalculatorTests.cs" />
-    <Compile Include="TwoArgumentsTests\XinReverseYTests.cs" />
-    <Compile Include="TwoArgumentsTests\XinYTests.cs" />
+    <Compile Include="TwoArguments\RemainTests.cs" />
+    <Compile Include="TwoArguments\SubstractionCalculatorTests.cs" />
+    <Compile Include="TwoArguments\XinReverseYTests.cs" />
+    <Compile Include="TwoArguments\XinYTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Strygevalecalculator2000\Strygevalecalculator2000.csproj">

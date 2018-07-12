@@ -1,8 +1,7 @@
 ﻿using NUnit.Framework;
-using NUnit.Framework.Internal;
-using Strygevalecalculator2000;
+using Strygevalecalculator2000.OneArgument;
 
-namespace Calculator.Tests.SingleArgument
+namespace ProjectTest.OneArgument
 {
     [TestFixture]
     class Xin2Tests

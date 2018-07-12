@@ -1,12 +1,8 @@
 ﻿using System;
 using NUnit.Framework;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Strygevalecalculator2000;
+using Strygevalecalculator2000.TwoArguments;
 
-namespace DivisionTest
+namespace ProjectTest.TwoArguments
 {
     [TestFixture]
     public class DivisionCalculatorTests
@@ -17,6 +13,7 @@ namespace DivisionTest
             DivisionCalculator calculator = new DivisionCalculator();
             Assert.AreEqual(4, calculator.Calculate(20, 5));
         }
+
         [TestCase(0, 1, 0)]
         [TestCase(10, 5, 2)]
         [TestCase(-4, -2, 2)]
@@ -26,9 +23,11 @@ namespace DivisionTest
             var actualResult = calculator.Calculate(firstArgument, secondArgument);
             Assert.AreEqual(result, actualResult);
         }
+
+        [Test]
         public void CalculateTest()
         {
-            ITwoArgumentsCalculator calculator = Fabric.CreateCalculator("divide");
+            ITwoArgumentsCalculator calculator = Factory.CreateCalculator("divide");
             Assert.Throws<Exception>(() => calculator.Calculate(5, 0));
         }
     }

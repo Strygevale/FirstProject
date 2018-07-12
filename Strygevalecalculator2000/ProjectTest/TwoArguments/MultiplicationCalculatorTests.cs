@@ -1,8 +1,7 @@
 ﻿using NUnit.Framework;
-using NUnit.Framework.Internal;
-using Strygevalecalculator2000;
+using Strygevalecalculator2000.TwoArguments;
 
-namespace MultiplyTest
+namespace ProjectTest.TwoArguments
 {
     [TestFixture]
     public class MultiplicationCalculatorTests

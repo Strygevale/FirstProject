@@ -1,10 +1,8 @@
 ﻿using System.Web.Mvc;
-using Strygevalecalculator2000.OneArgument;
 using Calculator.TwoArguments;
-using ITwoArgumentsCalculator = Strygevalecalculator2000.ITwoArgumentsCalculator;
 using SelectListItem = System.Web.WebPages.Html.SelectListItem;
 
-namespace WebApplication.Controllers
+namespace WebApplication1.Controllers
 {
     public class HomeController : Controller
     {

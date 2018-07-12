@@ -1,8 +1,7 @@
 ﻿using NUnit.Framework;
-using NUnit.Framework.Internal;
-using Strygevalecalculator2000;
+using Strygevalecalculator2000.OneArgument;
 
-namespace SinTest
+namespace ProjectTest.OneArgument
 {
     [TestFixture]
     public class SinCalculatorTests
